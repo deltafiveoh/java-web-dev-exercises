@@ -10,13 +10,13 @@ public class CountingCharacters {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        String filePath = "C:\\Coding\\java-web-dev-exercises\\..\\TestStringFile";
+        String filePath = "..\\TextFiles\\TestStringFile.txt";
 
         File file = new File(filePath);
         System.out.println(file.exists());
         String curDir = System.getProperty("user.dir");
         System.out.println("Current sys dir: " + curDir);
-        System.out.println("Current abs dir: " + file.getAbsolutePath());
+        System.out.println("file abs dir: " + file.getAbsolutePath());
 
 //        System.out.println("Please enter a text to determine character count");
 //        filePath = scanner.nextLine();
