@@ -65,4 +65,16 @@ public class MenuItem {
     public void setNew(boolean aNew) {
         isNew = aNew;
     }
+
+    @Override
+    public String toString() {
+        return "MenuItem{" +
+                "itemName='" + itemName + '\'' +
+                ", category='" + category + '\'' +
+                ", description='" + description + '\'' +
+                ", price=" + price +
+                ", dateSet=" + dateSet +
+                ", isNew=" + isNew +
+                '}';
+    }
 }
